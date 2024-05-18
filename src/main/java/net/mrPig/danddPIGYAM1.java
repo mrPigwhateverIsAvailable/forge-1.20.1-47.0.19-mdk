@@ -25,6 +25,9 @@ public class danddPIGYAM1
     public danddPIGYAM1() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItem.register(modEventBus)
+
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
