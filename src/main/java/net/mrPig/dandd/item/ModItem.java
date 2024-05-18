@@ -8,7 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItem {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, DandD.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, danddpigyam.MOD_ID);
 
     public static final RegistryObject<Item> COIN = ITEMS.register("coin",
             () -> new Item(new Item.Properties()));
