@@ -1,4 +1,4 @@
-package net.mrPig.danddlern;
+package net.mrPig.dnandlern;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.mrPig.dandd.item.ModItem;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,7 +26,7 @@ public class danddPIGYAM1
     public danddPIGYAM1() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItem.register(modEventBus)
+        ModItem.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
