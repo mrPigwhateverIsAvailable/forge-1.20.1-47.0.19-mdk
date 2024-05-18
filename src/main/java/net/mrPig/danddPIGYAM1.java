@@ -1,4 +1,4 @@
-package net.mrPig.dnandlern;
+package net.mrPig.danddpigyam;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
